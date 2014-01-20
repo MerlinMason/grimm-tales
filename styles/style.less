@@ -17,6 +17,22 @@
 @import "helpers.less";
 @import "grid.less";
 
+@font-face {
+    font-family: 'AvenirLT-Light';
+    src: url('fonts/29884E_0_0.eot');
+    src: url('fonts/29884E_0_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/29884E_0_0.woff') format('woff'),
+    url('fonts/29884E_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Geometric415BT-MediumA';
+    src: url('fonts/29928F_0_0.eot');
+    src: url('fonts/29928F_0_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/29928F_0_0.woff') format('woff'),
+    url('fonts/29928F_0_0.ttf') format('truetype');
+}
+
 ::-moz-selection {
     background:@color-highlight;
     color:#fff;
@@ -39,11 +55,14 @@ body {
     font-size:@font-size-base;
     line-height:@line-height-base;
     color:@color-text;
+    font-family: 'AvenirLT-Light';
 }
 
 p { margin-bottom:@space; }
 
 .sub-heading {
+    font-family: 'Geometric415BT-MediumA';
+    font-weight:normal;
     color:@color-highlight;
     border-bottom:5px solid @color-highlight;
     text-transform:uppercase;
@@ -51,6 +70,8 @@ p { margin-bottom:@space; }
 }
 
 .main-heading {
+    font-family: 'Geometric415BT-MediumA';
+    font-weight:normal;
     font-size:30px;
     text-transform:uppercase;
     margin-bottom:@space;
@@ -114,8 +135,34 @@ textarea:focus {
 
 
 .page-header {
-    .logos {}
-    .scroll-nav {}
+    .position(fixed,0,0,auto,0);
+    z-index:1;
+    background-color: black;
+    .logos a {
+        text-indent:-110%;
+        direction: ltr;
+        overflow:hidden;
+        display:inline-block;
+        overflow:hidden;
+        height:40px;
+        margin-top: 8px;
+        border:1px solid red;
+        &.timeout {
+            width:60px;
+            .retina-image("img/timeout-logo.png", "img/timeout-logo@2x.png", "60px", "40px");
+        }
+        &.penguin {
+            width:100px;
+            .retina-image("img/penguin-logo.png", "img/penguin-logo@2x.png", "100px", "40px");
+        }
+    }
+    
+    .scroll-nav {
+        a {
+            padding:@space;
+            display:inline-block;
+        }
+    }
 }
 
 
@@ -126,8 +173,10 @@ textarea:focus {
 
 .page-section {
     padding:@space 0;
-    &.dark { background:#333; }
+    &.dark { .grad-vertical(#000,#333); }
     &.light { background:#ccc; }
+    &.footer { background:@color-highlight; }
+    &.first { padding-top:75px; }
 }
 
 hr {

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<section id="grimm-tales">
-
+<section id="grimm-tales" class="page-section dark first">
+    <h1 class="main-heading light text-center">Grimm Tales</h1>
 </section>
 
 <section id="about" class="page-section light">
@@ -26,21 +26,15 @@
     </div>
 </section>
 
-<section class="page-section dark">
+<section id="the-stories" class="page-section dark">
     <div class="container">
-
+        <h1 class="main-heading light text-center">The Six Tales</h1>
     </div>
 </section>
 
-<section id="the-stories" class="page-section light">
+<section id="tickets" class="page-section light">
     <div class="container">
-
-    </div>
-</section>
-
-<section id="tickets" class="page-section dark">
-    <div class="container">
-        <h1 class="main-heading light text-center">Tickets And Performances</h1>
+        <h1 class="main-heading dark text-center">Tickets And Performances</h1>
         <div class="row">
             <div class="col-sm-6">
                 <h2 class="sub-heading">General</h2>
@@ -53,6 +47,63 @@
         <hr class="light">
 
         <div>CALENDAR HERE</div>
+
+    </div>
+</section>
+
+<section id="cast" class="page-section dark">
+    <div class="container">
+        <h1 class="main-heading light text-center">Cast and Creative</h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <h2 class="sub-heading">General</h2>
+            </div>
+            <div class="col-sm-4">
+                <h2 class="sub-heading">General</h2>
+            </div>
+            <div class="col-sm-4">
+                <h2 class="sub-heading">Tickets</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h2 class="sub-heading">General</h2>
+            </div>
+            <div class="col-sm-4">
+                <h2 class="sub-heading">General</h2>
+            </div>
+            <div class="col-sm-4">
+                <h2 class="sub-heading">Tickets</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 class="sub-heading">General</h2>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="sub-heading">General</h2>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="sub-heading">Tickets</h2>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="sub-heading">Tickets</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 class="sub-heading">General</h2>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="sub-heading">General</h2>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="sub-heading">Tickets</h2>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="sub-heading">Tickets</h2>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -132,13 +183,31 @@
     </div>
 </section>
 
-<section class="page-section light">
-    <div class="container">
 
+
+<section id="tour" class="page-section light">
+    <div class="container">
+        <h1 class="main-heading dark text-center">Tour</h1>
     </div>
 </section>
 
 <section class="page-section dark">
+    <div class="container">
+        <h1 class="main-heading light text-center">The Grim Tales Book</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                media abstraction here
+            </div>
+            <div class="col-sm-6">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="page-section footer">
     <div class="container">
         FOOTER DETAILS HERE
     </div>

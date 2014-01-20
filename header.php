@@ -30,10 +30,8 @@
     <div class="container cf">
 
         <div class="logos fl">
-            <a href="">logo</a>
-            <a href="">logo</a>
-            <a href="">logo</a>
-            <a href="">logo</a>
+            <a href="#" class="timeout" target="_blank">Timeout London</a>
+            <a href="#" class="penguin" target="_blank">Penguin Classics</a>
         </div>
 
         <nav class="scroll-nav fr">
@@ -41,8 +39,10 @@
             <a href="#about">About</a>
             <a href="#the-stories">The Stories</a>
             <a href="#tickets">Tickets</a>
+            <a href="#cast">Cast</a>
             <a href="#find-us">Find Us</a>
             <a href="#sponsors">Sponsors</a>
+            <a href="#tour">Tour</a>
         </nav>
 
     </div>
