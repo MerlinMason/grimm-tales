@@ -43,6 +43,21 @@ body {
 
 p { margin-bottom:@space; }
 
+.sub-heading {
+    color:@color-highlight;
+    border-bottom:5px solid @color-highlight;
+    text-transform:uppercase;
+    margin-bottom:@space;
+}
+
+.main-heading {
+    font-size:30px;
+    text-transform:uppercase;
+    margin-bottom:@space;
+    &.dark { color:#333; }
+    &.light { color:#ccc; }
+}
+
 
 //----------------------------------------------------------------------------//
 //  Links
@@ -99,27 +114,8 @@ textarea:focus {
 
 
 .page-header {
-    .menu {
-        li {
-
-        }
-        a:link,
-        a:visited {
-
-        }
-        .current-menu-item a,
-        .current-post-ancestor a,
-        a:hover,
-        a:focus {
-
-        }
-    }
-    .sitename a {
-
-    }
-    @media (max-width:@break-small) { }
-    @media (max-width:@break-medium) { }
-    @media (max-width:@break-large) { }
+    .logos {}
+    .scroll-nav {}
 }
 
 
@@ -127,15 +123,19 @@ textarea:focus {
 //  Content
 //----------------------------------------------------------------------------//
 
-.postnav { }
 
-//----------------------------------------------------------------------------//
-//  Footer
-//----------------------------------------------------------------------------//
-
-
-.page-footer {
-    @media (max-width:@break-small) { }
-    @media (max-width:@break-medium) { }
-    @media (max-width:@break-large) { }
+.page-section {
+    padding:@space 0;
+    &.dark { background:#333; }
+    &.light { background:#ccc; }
 }
+
+hr {
+    height:1px;
+    border:none;
+    border-top:1px solid;
+    margin:0 0 @space 0;
+    &.light { border-color:#ccc; }
+    &.dark { border-color:#333; }
+}
+
