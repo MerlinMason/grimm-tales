@@ -73,6 +73,7 @@ p { margin-bottom:@space; }
     font-family: 'Geometric415BT-MediumA';
     font-weight:normal;
     font-size:30px;
+    letter-spacing: 0.5em;
     text-transform:uppercase;
     margin-bottom:@space;
     &.dark { color:#333; }
@@ -159,7 +160,7 @@ textarea:focus {
     
     .scroll-nav {
         a {
-            padding:@space;
+            padding:@space (@space/2);
             display:inline-block;
         }
     }
@@ -174,7 +175,7 @@ textarea:focus {
 .page-section {
     padding:@space 0;
     &.dark { .grad-vertical(#000,#333); }
-    &.light { background:#ccc; }
+    &.light { .grad-vertical(#c8c8c8,#FFF); }
     &.footer { background:@color-highlight; }
     &.first { padding-top:75px; }
 }
