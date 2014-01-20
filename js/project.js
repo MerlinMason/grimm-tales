@@ -8,7 +8,7 @@
         },
 
         bindUIActions: function () {
-            $(".btn").on("click", function (e) { wpstarter.sayHello(e); });
+            $(".scroll-nav a").on("click", function (e) { wpstarter.scrollToSection(e); });
         },
 
         windowLoaded: function () {
@@ -34,9 +34,13 @@
             }, 200);
         },
 
-        sayHello: function (e) {
-            var button = $(e.currentTarget);
-            console.log("Hello! You clicked " + button);
+        scrollToSection: function (e) {
+            e.preventDefault();
+
+            var destination = (e.currentTarget.hash);
+            var offset = $(destination)[0].offsetTop;
+
+            $("body").animate({ scrollTop: offset }, 600);
         }
 
     };
