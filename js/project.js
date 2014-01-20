@@ -5,6 +5,7 @@
 
         init: function () {
             this.bindUIActions();
+            $(".fitvid-wrapper").fitVids();
         },
 
         bindUIActions: function () {

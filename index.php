@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-sm-9">
                 <div class="fitvid-wrapper">
-                    VIMEO HERE
+                    <iframe class="player-frame" src="//player.vimeo.com/video/78050478?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1&amp;loop=0" frameborder="0"></iframe>
                 </div>
             </div>
             <div class="col-sm-3">

@@ -6,5 +6,8 @@
     "jquery-smartresize": "latest",
     "modernizr": "~2.7.1"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "fitvids": "~1.0.3"
+  }
 }
