@@ -24,18 +24,26 @@
 
 </head>
 
-<body <?php body_class(); ?>>
+<body>
 
-<div class="container">
+<header>
+    <div class="container cf">
 
-    <header class="page-header">
-        <h1 class="sitename">
-            <a href="<?php echo home_url('/'); ?>">
-                <?php bloginfo('name'); ?>
-            </a>
-        </h1>
+        <div class="logos fl">
+            <a href="">logo</a>
+            <a href="">logo</a>
+            <a href="">logo</a>
+            <a href="">logo</a>
+        </div>
 
-        <nav class="menu">
-            <?php wp_nav_menu( array('container_class' => 'menu-header', 'theme_location' => 'primary')); ?>
+        <nav class="scroll-nav fr">
+            <a href="#grimm-tales">Grimm Tales</a>
+            <a href="#about">About</a>
+            <a href="#the-stories">The Stories</a>
+            <a href="#tickets">Tickets</a>
+            <a href="#find-us">Find Us</a>
+            <a href="#sponsors">Sponsors</a>
         </nav>
-    </header>
+
+    </div>
+</header>
