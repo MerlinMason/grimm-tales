@@ -1,0 +1,141 @@
+/*!
+    Theme Name: WP-Starter
+    Author: Merlin Mason
+    Version: 1.0
+    License: The MIT License (MIT)
+*/
+
+
+//----------------------------------------------------------------------------//
+//  Setup
+//----------------------------------------------------------------------------//
+
+
+@charset "UTF-8";
+@import "reset.less";
+@import "vars.less";
+@import "helpers.less";
+@import "grid.less";
+
+::-moz-selection {
+    background:@color-highlight;
+    color:#fff;
+    text-shadow:none;
+}
+::selection {
+    background:@color-highlight;
+    color:#fff;
+    text-shadow:none;
+}
+
+
+//----------------------------------------------------------------------------//
+//  Typography
+//----------------------------------------------------------------------------//
+
+
+body {
+    font-family:@font-family-base;
+    font-size:@font-size-base;
+    line-height:@line-height-base;
+    color:@color-text;
+}
+
+p { margin-bottom:@space; }
+
+
+//----------------------------------------------------------------------------//
+//  Links
+//----------------------------------------------------------------------------//
+
+
+a:link,
+a:visited {
+    color:@color-link;
+    text-decoration:none;
+}
+a:hover,
+a:focus,
+a:active {
+    color:@color-link-hover;
+    text-decoration:none;
+    outline:none;
+}
+
+
+//----------------------------------------------------------------------------//
+//  Forms & Buttons
+//----------------------------------------------------------------------------//
+
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea {
+    padding:(@space/2);
+    border:none;
+    .placeholder();
+}
+
+input[type='text']:hover,
+input[type='email']:hover,
+input[type='password']:hover,
+textarea:hover {
+
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus,
+textarea:focus {
+    outline:none;
+    // Define your own focus styles here
+}
+
+
+//----------------------------------------------------------------------------//
+//  Header
+//----------------------------------------------------------------------------//
+
+
+.page-header {
+    .menu {
+        li {
+
+        }
+        a:link,
+        a:visited {
+
+        }
+        .current-menu-item a,
+        .current-post-ancestor a,
+        a:hover,
+        a:focus {
+
+        }
+    }
+    .sitename a {
+
+    }
+    @media (max-width:@break-small) { }
+    @media (max-width:@break-medium) { }
+    @media (max-width:@break-large) { }
+}
+
+
+//----------------------------------------------------------------------------//
+//  Content
+//----------------------------------------------------------------------------//
+
+.postnav { }
+
+//----------------------------------------------------------------------------//
+//  Footer
+//----------------------------------------------------------------------------//
+
+
+.page-footer {
+    @media (max-width:@break-small) { }
+    @media (max-width:@break-medium) { }
+    @media (max-width:@break-large) { }
+}

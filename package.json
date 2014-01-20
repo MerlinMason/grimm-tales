@@ -1,0 +1,20 @@
+{
+  "name": "wp-starter",
+  "version": "0.1.0",
+  "author": "Merlin Mason",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "matchdep": "*",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.5",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-autoprefixer": "~0.4.0",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-notify": "~0.2.15",
+    "grunt-contrib-imagemin": "~0.4.0"
+  }
+}
