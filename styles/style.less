@@ -157,7 +157,7 @@ textarea:focus {
             .retina-image("img/penguin-logo.png", "img/penguin-logo@2x.png", "100px", "40px");
         }
     }
-    
+
     .scroll-nav {
         a {
             padding:@space (@space/2);
@@ -187,5 +187,14 @@ hr {
     margin:0 0 @space 0;
     &.light { border-color:#ccc; }
     &.dark { border-color:#333; }
+}
+
+// Circular images that preserve aspect ratio - should be uploaded as squares
+.clipped {
+    width:80%; // change this to make them bigger / smaller
+    height:auto;
+    border-radius:50%;
+    margin:0 auto @space;
+    display:block;
 }
 

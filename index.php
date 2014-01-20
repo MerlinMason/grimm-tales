@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-sm-9">
                 <div class="fitvid-wrapper">
-                    <iframe class="player-frame" src="//player.vimeo.com/video/78050478?title=0&byline=0&portrait=0&color=ffffff&autoplay=1&loop=0" frameborder="0" width="640" height="360"></iframe>
+                    <iframe class="player-frame" src="//player.vimeo.com/video/78050478?title=0&byline=0&portrait=0&color=ffffff&loop=0" frameborder="0" width="640" height="360"></iframe>
                 </div>
             </div>
             <div class="col-sm-3">
@@ -143,22 +143,22 @@
 
         <div class="row">
             <div class="col-sm-3">
-                <img src="" alt="" class="clipped">
+                <img src="http://placehold.it/260x260" alt="" class="clipped">
                 <h2 class="sub-heading">Type</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, qui!</p>
             </div>
             <div class="col-sm-3">
-                <img src="" alt="" class="clipped">
+                <img src="http://placehold.it/260x260" alt="" class="clipped">
                 <h2 class="sub-heading">Type</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, est!</p>
             </div>
             <div class="col-sm-3">
-                <img src="" alt="" class="clipped">
+                <img src="http://placehold.it/260x260" alt="" class="clipped">
                 <h2 class="sub-heading">Type</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, vel.</p>
             </div>
             <div class="col-sm-3">
-                <img src="" alt="" class="clipped">
+                <img src="http://placehold.it/260x260" alt="" class="clipped">
                 <h2 class="sub-heading">Type</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, omnis.</p>
             </div>
