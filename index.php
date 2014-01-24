@@ -174,12 +174,12 @@
     <div class="container">
         <h1 class="main-heading dark text-center">Find Us</h1>
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-sm-7">
                 MAP
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-5">
                 <h2 class="sub-heading">Shoreditch Town Hall</h2>
-                <dl>
+                <dl class= "body-dark">
                     <dt>Address:</dt>
                     <dd>
                         <address>
