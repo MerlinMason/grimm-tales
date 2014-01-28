@@ -62,12 +62,12 @@ body {
 
 .body-light {
     color:@color-text-light;
-    
+
 }
 
 .body-dark {
     color:@color-text-dark;
-    
+
 }
 
 
@@ -112,14 +112,9 @@ p { margin-bottom:@space; }
 }
 
 .details {
-    font-size:@font-size-small; 
-        color:@color-text-dark;
-
+    font-size:@font-size-small;
+    color:@color-text-dark;
 }
-
-
-
-
 
 .main-heading {
     font-family: 'Geometric415BT-MediumA';
@@ -179,6 +174,22 @@ input[type='password']:focus,
 textarea:focus {
     outline:none;
     // Define your own focus styles here
+}
+
+.btn {
+    border:none;
+    padding:(@space/2);
+    display:inline-block;
+    transition:all 0.2s;
+    border-radius:2px;
+    &:link, &:visited {
+        background:@color-highlight;
+        color:#000;
+    }
+    &:hover, &:focus {
+        background:@color-highlight-dark;
+        color:#fff;
+    }
 }
 
 
@@ -270,5 +281,77 @@ hr {
     margin:0 auto @space;
     display:block;
 }
+
+
+//----------------------------------------------------------------------------//
+//  Calandar
+//----------------------------------------------------------------------------//
+
+
+.calendar {
+    width:100%;
+    text-align:center;
+    color:#333;
+    td, th {
+        border:1px solid #ccc;
+        padding:(@space/2);
+    }
+    td {
+        cursor:pointer;
+        position:relative;
+        user-select:none;
+        background:#eee;
+        color:@color-highlight;
+        // styles for none calendar days
+        &.not-a-day {
+            background:#ccc;
+            cursor:auto;
+        }
+        // styles for days with no events
+        &[data-date=""] {
+            cursor:no-drop;
+            color:#bbb;
+        }
+    }
+    .shows {
+        .position(absolute, 0, auto, auto, 100%);
+        z-index:1;
+        background:#000;
+        padding:(@space/2);
+        border-radius:2px;
+        color:#fff;
+        &:before {
+            content:'';
+            .position(absolute, 10px, auto, auto, -10px);
+            width:0;
+            height:0;
+            border-top:10px solid transparent;
+            border-bottom:10px solid transparent;
+            border-right:10px solid #000;
+        }
+        > div {
+            white-space:nowrap;
+            & + div { margin-top:(@space/2); }
+        }
+    }
+    // rearrange layout if popup is on right of screen
+    td:nth-child(3)
+    td:nth-child(4),
+    td:nth-child(5),
+    td:nth-child(6),
+    td:nth-child(7) {
+        .shows {
+            .position(absolute, 0, 100%, auto, auto);
+            &:before {
+                .position(absolute, 10px, -10px, auto, auto);
+                border-top:10px solid transparent;
+                border-bottom:10px solid transparent;
+                border-left:10px solid #000;
+                border-right:0;
+            }
+        }
+    }
+}
+
 
 

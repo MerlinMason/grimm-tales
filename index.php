@@ -1,20 +1,20 @@
 <?php get_header(); ?>
 
-<section id="grimm-tales" class="page-section dark first"> 
+<section id="grimm-tales" class="page-section dark first">
     <h1 class="main-heading light text-center">Grimm Tales</h1>
         <div class="container">
-          
-<hr class="dark"> 
+
+<hr class="dark">
              <p class="center-large">Announcing the world debut of a never-before-experienced immersive storytelling event – a theatrical reimagining of award-winning author Philip Pullman’s Grimm Tales for Young and Old in Shoreditch Town Hall, London.</p>
                  <p class="center"></br>
                 We invite you to experience a handful of classic fairytales in the flesh. From Little Red Riding Hood to Rapunzel, you’ll brush shoulders with unforgettable characters from Philip Pullman’s book, in a theatre production that will enchant and inspire children and adults of all ages. This is an Easter experience full of unexpected twists and turns, well suited to adults with a keen sense of curiosity and their brave children.
                 </br></br>
                 Infused with storytelling magic, immersive action and raw excitement, this is a way to see these classic fairytales like never before. </p>
-<hr class="dark">  
+<hr class="dark">
                <div class="row">
 
                 <div class="col-sm-4">
-                    <p class="pull">‘He (Philip Pullman) makes us fall in love all over again with the immortal tales of the Brothers Grimm.’ 
+                    <p class="pull">‘He (Philip Pullman) makes us fall in love all over again with the immortal tales of the Brothers Grimm.’
                         </p><p class="credit">The New York Times</p>
                 </div>
 
@@ -24,25 +24,25 @@
                 </div>
 
                  <div class="col-sm-4">
-                    <p class="pull">‘Pullman adds himself to the great line of storytellers, achieving his aim of clarity, as well as a sense of these tales as living, mutable things that still transmit deep truths’ 
+                    <p class="pull">‘Pullman adds himself to the great line of storytellers, achieving his aim of clarity, as well as a sense of these tales as living, mutable things that still transmit deep truths’
                         </p><p class="credit">Telegraph</p>
                 </div>
 
-            </div>  
-        </div>  
+            </div>
+        </div>
 </section>
 
 <section id="about" class="page-section light">
     <div class="container">
         <h1 class="main-heading dark text-center">About The Show</h1>
-        <div class="row">
+        <div class="row mb-1x">
             <div class="col-sm-12">
                 <div class="fitvid-wrapper">
                     <iframe class="player-frame" src="//player.vimeo.com/video/78050478?title=0&byline=0&portrait=0&color=ffffff&loop=0" frameborder="0" width="640" height="360"></iframe>
                 </div>
             </div>
         </div>
-            
+
             <div class="row">
                 <div class="col-sm-6">
                     <p class= "body-dark">We are proud to collaborate with master storyteller Philip Pullman CBE to bring these classic tales quite literally to life through immersive theatre. Pullman is one of only nine authors in the world to have sold over 1 million books and his 2012 retelling of 50 of the Grimm Brothers’ Fairytales brought these classic stories to new generations of wide-eyed readers. </p>
@@ -56,37 +56,37 @@
                         Sound Designer - Richard Hammerton</p>
                 </div>
             </div>
-                        <hr class="light">  
+                        <hr class="light">
 
             <div class="row">
                 <div class="col-sm-6">
                     <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman.jpg" alt="" class="clipped-large">
                 </div>
-                
+
                 <div class="col-sm-6">
-                    <h2 class="sub-heading">A word from the author:</h2> 
+                    <h2 class="sub-heading">A word from the author:</h2>
                      <p class="credit"> Philip Pulman (author of Grimm Tales for Young and Old): <p class= "body-dark">
                                         “Nowadays we think of these wonderful tales as something from a book, but the great collection of the Brothers Grimm was published only two hundred years ago. The tales are much older than that, and they were originally told orally, not written down, so a dramatic production seems like a return to
                                         their origin. I’m sure the tales will flourish in this setting, and I greatly look forward to seeing how they come to life.”</p>
                 </div>
-            </div>  
+            </div>
 
- <hr class="light">  
-            <h2 class="sub-heading">What to expect, from our Creative Production Team:</h2> 
+ <hr class="light">
+            <h2 class="sub-heading">What to expect, from our Creative Production Team:</h2>
 
             <div class="row">
                 <div class="col-sm-6">
                     <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-philip-wilson.jpg" alt="" class="clipped-med">
                      <p class="credit"> Director Philip Wilson (Salisbury Playhouse):<p class= "body-dark">
-                                       “This immersive production will translate the rollicking pace of the stories’ plots into raw action, just as vividly as Pullman and the Grimm Brothers did in deciphering ages-old spoken folktales into the prevailing page-turners of their time.”</p>  
+                                       “This immersive production will translate the rollicking pace of the stories’ plots into raw action, just as vividly as Pullman and the Grimm Brothers did in deciphering ages-old spoken folktales into the prevailing page-turners of their time.”</p>
                 </div>
-                
+
                 <div class="col-sm-6">
                     <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-val-coward.jpg" alt="" class="clipped-med">
                      <p class="credit"> Producer Val Coward (Old Vic Tunnels):<p class= "body-dark">
                                         “The basement rooms of the iconic Shoreditch Town Hall are a blank canvas backdrop for Pullman’s Grimm Tales.  It’s a real flesh-and-blood rendering for story-hungry audiences of all ages; you’re literally in the tower with Rapunzel and the witch, or deep in the forest, sharing the magic with the players as each tale unfolds.”</p>
                 </div>
-            </div>  
+            </div>
 
         </div>
     </div>
@@ -99,7 +99,7 @@
 
             <div class="col-sm-4">
                 <img src="http://placehold.it/260x260" alt="" class="clipped">
-                <h2 class="sub-heading">Little Red Riding Hood</h2> 
+                <h2 class="sub-heading">Little Red Riding Hood</h2>
                 <p>Everyone’s favourite ‘don’t talk to strangers’ morality tale. Wantonly wandering off the path, our red-hooded heroine meets a wolf – the repercussions of which include some unlikely cross-dressing and some lovably naïve observations from Little Red. Thank heavens for the strapping huntsman.</p>
             </div>
 
@@ -114,7 +114,7 @@
                 <h2 class="sub-heading">The Fisherman and His Wife</h2>
                  <p>Greed is not good. After meeting a magical flounder, our fisherman hero is beset by his mercenary wife’s grasping wishes. She gets what she wants for a while; from filthy shack to cottage to palace, her social climbing antics know no bounds. But Mrs Fisherman: what goes around comes around.</p>
             </div>
-        </div>    
+        </div>
 
         <div class="row">
 
@@ -148,7 +148,7 @@
                 <h2 class="sub-heading">General</h2>
                 <p class= "body-dark">Grimm Tales for Young and Old is:
 
-                An 80-minute immersive theatre performance 
+                An 80-minute immersive theatre performance
 
                 For everyone over the age of 8 (parental discretion required for under 8s)
 
@@ -167,7 +167,138 @@
 
         <hr class="light">
 
-        <div>CALENDAR HERE</div>
+        <h2 class="main-heading dark text-center">March</h2>
+        <table class="calendar mb-1x">
+            <thead>
+                <tr>
+                    <th>M</th>
+                    <th>T</th>
+                    <th>W</th>
+                    <th>T</th>
+                    <th>F</th>
+                    <th>S</th>
+                    <th>S</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                    <td data-date="">1</td>
+                    <td data-date="">2</td>
+                </tr>
+                <tr>
+                    <td data-date="">3</td>
+                    <td data-date="">4</td>
+                    <td data-date="">5</td>
+                    <td data-date="">6</td>
+                    <td data-date="">7</td>
+                    <td data-date="">8</td>
+                    <td data-date="">9</td>
+                </tr>
+                <tr>
+                    <td data-date="">10</td>
+                    <td data-date="">11</td>
+                    <td data-date="">12</td>
+                    <td data-date="">13</td>
+                    <td data-date="14-03-2014">14</td>
+                    <td data-date="15-03-2014">15</td>
+                    <td data-date="16-03-2014">16</td>
+                </tr>
+                <tr>
+                    <td data-date="">17</td>
+                    <td data-date="18-03-2014">18</td>
+                    <td data-date="19-03-2014">19</td>
+                    <td data-date="20-03-2014">20</td>
+                    <td data-date="21-03-2014">21</td>
+                    <td data-date="22-03-2014">22</td>
+                    <td data-date="23-03-2014">23</td>
+                </tr>
+                <tr>
+                    <td data-date="">24</td>
+                    <td data-date="25-03-2014">25</td>
+                    <td data-date="26-03-2014">26</td>
+                    <td data-date="27-03-2014">27</td>
+                    <td data-date="28-03-2014">28</td>
+                    <td data-date="29-03-2014">29</td>
+                    <td data-date="30-03-2014">30</td>
+                </tr>
+                <tr>
+                    <td data-date="">31</td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="main-heading dark text-center">April</h2>
+        <table class="calendar mb-1x">
+            <thead>
+                <tr>
+                    <th>M</th>
+                    <th>T</th>
+                    <th>W</th>
+                    <th>T</th>
+                    <th>F</th>
+                    <th>S</th>
+                    <th>S</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="not-a-day"></td>
+                    <td data-date="01-04-2014">1</td>
+                    <td data-date="02-04-2014">2</td>
+                    <td data-date="03-04-2014">3</td>
+                    <td data-date="04-04-2014">4</td>
+                    <td data-date="05-04-2014">5</td>
+                    <td data-date="06-04-2014">6</td>
+                </tr>
+                <tr>
+                    <td data-date="">7</td>
+                    <td data-date="08-04-2014">8</td>
+                    <td data-date="09-04-2014">9</td>
+                    <td data-date="10-04-2014">10</td>
+                    <td data-date="11-04-2014">11</td>
+                    <td data-date="12-04-2014">12</td>
+                    <td data-date="13-04-2014">13</td>
+                </tr>
+                <tr>
+                    <td data-date="">24</td>
+                    <td data-date="15-04-2014">15</td>
+                    <td data-date="16-04-2014">16</td>
+                    <td data-date="17-04-2014">17</td>
+                    <td data-date="18-04-2014">18</td>
+                    <td data-date="19-04-2014">19</td>
+                    <td data-date="">20</td>
+                </tr>
+                <tr>
+                    <td data-date="">21</td>
+                    <td data-date="22-04-2014">22</td>
+                    <td data-date="23-04-2014">23</td>
+                    <td data-date="24-04-2014">24</td>
+                    <td data-date="">25</td>
+                    <td data-date="">26</td>
+                    <td data-date="">27</td>
+                </tr>
+                <tr>
+                    <td data-date="">28</td>
+                    <td data-date="">29</td>
+                    <td data-date="">30</td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                    <td class="not-a-day"></td>
+                </tr>
+            </tbody>
+        </table>
 
     </div>
 </section>
@@ -328,8 +459,8 @@
                 <h2 class="sub-heading">Valerie Coward</h2>
                  <p>Valerie Coward is Director of Pathfinder Productions</p>
             </div>
-        </div>     
-<hr class="dark">  
+        </div>
+<hr class="dark">
         <div class="row">
             <div class="col-sm-6">
                 media abstraction here
