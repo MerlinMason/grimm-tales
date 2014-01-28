@@ -35,7 +35,7 @@
         </div>
 
         <nav class="scroll-nav fr">
-            <a href="#grimm-tales">Grimm Tales</a>
+            <a href="#grimm-tales">Home</a>
             <a href="#about">About</a>
             <a href="#the-stories">The Stories</a>
             <a href="#tickets">Tickets</a>

@@ -55,9 +55,9 @@ body {
     font-size:@font-size-base;
     line-height:@line-height-base;
     color:@color-text-light;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     font-family: 'AvenirLT-Light';
-    line-height: 160%;
+   -webkit-font-smoothing: antialiased;
 }
 
 .body-light {
@@ -77,27 +77,46 @@ p { margin-bottom:@space; }
 .sub-heading {
     font-family: 'Geometric415BT-MediumA';
     font-weight:normal;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     color:@color-highlight;
-    border-bottom:5px solid @color-highlight;
+    border-bottom:3px solid @color-highlight;
     text-transform:uppercase;
     margin-bottom:@space;
 }
 
+
 .pull {
     font-family: 'AvenirLT-Light';
-    font-size:18px;
-    letter-spacing: 0.1em;
+    font-size:@font-size-large;
+    letter-spacing: 0.04em;
+}
+
+.center-large {
+    font-family: 'AvenirLT-Light';
+    text-align: center;
+    font-size:@font-size-large;
+    letter-spacing: 0.04em;
+}
+
+.center {
+    text-align: center;
+
 }
 
 .credit {
     font-family: 'Geometric415BT-MediumA';
     font-weight:normal;
     color:@color-text-dark;
-    font-size:14px;
-    letter-spacing: 0.1em;
+    font-size:@font-size-small;
     font-color:#464646;
 }
+
+.details {
+    font-size:@font-size-small; 
+        color:@color-text-dark;
+
+}
+
 
 
 
@@ -171,7 +190,7 @@ textarea:focus {
 .page-header {
     .position(fixed,0,0,auto,0);
     z-index:1;
-    background-color: black;
+    background-color: #262626;
     .logos a {
         text-indent:-110%;
         direction: ltr;
@@ -179,11 +198,11 @@ textarea:focus {
         display:inline-block;
         overflow:hidden;
         height:40px;
-        margin-top: 8px;
+        margin-top: 7px;
         border:1px solid red;
         &.timeout {
-            width:60px;
-            .retina-image("img/timeout-logo.png", "img/timeout-logo@2x.png", "60px", "40px");
+            width:100px;
+            .retina-image("img/timeout-logo.png", "img/timeout-logo@2x.png", "100px", "40px");
         }
         &.penguin {
             width:100px;
@@ -198,7 +217,8 @@ textarea:focus {
             font-family: 'Geometric415BT-MediumA';
             text-transform: uppercase;
             font-weight: normal;
-            letter-spacing: 0.2em;
+            letter-spacing: 0.1em;
+            font-size:@font-size-mini;
         }
     }
 }
