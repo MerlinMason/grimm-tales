@@ -3,7 +3,7 @@
 <section id="grimm-tales" class="page-section dark first"> 
     <h1 class="main-heading light text-center">Grimm Tales</h1>
         <div class="container">
-            <img src="http://placehold.it/260x260" alt="" class="clipped">
+          
 <hr class="dark"> 
              <p class="center-large">Announcing the world debut of a never-before-experienced immersive storytelling event – a theatrical reimagining of award-winning author Philip Pullman’s Grimm Tales for Young and Old in Shoreditch Town Hall, London.</p>
                  <p class="center"></br>
@@ -48,7 +48,7 @@
                     <p class= "body-dark">We are proud to collaborate with master storyteller Philip Pullman CBE to bring these classic tales quite literally to life through immersive theatre. Pullman is one of only nine authors in the world to have sold over 1 million books and his 2012 retelling of 50 of the Grimm Brothers’ Fairytales brought these classic stories to new generations of wide-eyed readers. </p>
                 </div>
                 <div class="col-sm-6">
-                     <p class= "body-dark">Adapted & Directed by Philip Wilson</br>
+                     <p class= "body-dark">Adapted &amp; Directed by Philip Wilson</br>
                         Producer – Valerie Coward</br>
                         Executive Producer – Catherine Botibol</br>
                         Set & Costume Designer - Tom Rodgers</br>
@@ -60,7 +60,7 @@
 
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="img/grimm-tales-philip-pullman.png" alt="" class="clipped">
+                    <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman.jpg" alt="" class="clipped-large">
                 </div>
                 
                 <div class="col-sm-6">
@@ -72,17 +72,17 @@
             </div>  
 
  <hr class="light">  
-            <h2 class="sub-heading">A word from the author:</h2> 
+            <h2 class="sub-heading">What to expect, from our Creative Production Team:</h2> 
 
             <div class="row">
                 <div class="col-sm-6">
-                   <img src="http://placehold.it/260x260" alt="" class="clipped">
+                    <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-philip-wilson.jpg" alt="" class="clipped-med">
                      <p class="credit"> Director Philip Wilson (Salisbury Playhouse):<p class= "body-dark">
                                        “This immersive production will translate the rollicking pace of the stories’ plots into raw action, just as vividly as Pullman and the Grimm Brothers did in deciphering ages-old spoken folktales into the prevailing page-turners of their time.”</p>  
                 </div>
                 
                 <div class="col-sm-6">
-                    <img src="http://placehold.it/260x260" alt="" class="clipped">
+                    <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-val-coward.jpg" alt="" class="clipped-med">
                      <p class="credit"> Producer Val Coward (Old Vic Tunnels):<p class= "body-dark">
                                         “The basement rooms of the iconic Shoreditch Town Hall are a blank canvas backdrop for Pullman’s Grimm Tales.  It’s a real flesh-and-blood rendering for story-hungry audiences of all ages; you’re literally in the tower with Rapunzel and the witch, or deep in the forest, sharing the magic with the players as each tale unfolds.”</p>
                 </div>
