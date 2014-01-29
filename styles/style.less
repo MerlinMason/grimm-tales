@@ -288,15 +288,17 @@ textarea:focus {
         display:inline-block;
         overflow:hidden;
         height:40px;
+        background-position: center center;
+        background-repeat: no-repeat;
         margin-top: 7px;
-        border:1px solid red;
+      
         &.timeout {
-            width:100px;
-            .retina-image("img/timeout-logo.png", "img/timeout-logo@2x.png", "100px", "40px");
+            width:50px;
+            .retina-image("img/timeout-logo.png", "img/timeout-logo@2x.png", "50px", "20px");
         }
         &.penguin {
-            width:100px;
-            .retina-image("img/penguin-logo.png", "img/penguin-logo@2x.png", "100px", "40px");
+            width:189px;
+            .retina-image("img/penguin-classics-logo.png", "img/penguin-classics-logo@2x.png", "189px", "40px");
         }
     }
 
@@ -412,8 +414,15 @@ hr {
     display:block;
 }
 
-.book {
+.large-image {
     width:80%; // change this to make them bigger / smaller
+    height:auto;
+    margin:0 auto @space;
+    display:block;
+}
+
+.small-image {
+    width:40%; // change this to make them bigger / smaller
     height:auto;
     margin:0 auto @space;
     display:block;
