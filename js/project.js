@@ -276,6 +276,13 @@
         bindUIActions: function () {
             $(".scroll-nav a:not(.book-tickets)").on("click", function (e) { grimmtales.scrollToSection(e); });
             $(".calendar td").on("click", function (e) { grimmtales.showCalendarPopup(e); });
+            $(".nav-toggle").on("click", function () { grimmtales.toggleNav(); });
+        },
+
+        windowResized: function () {
+            if ($(window).width() > 728) {
+                $(".scroll-nav").css({ "display" : "inline-block" });
+            }
         },
 
         windowLoaded: function () {
@@ -325,12 +332,18 @@
                 $(e.currentTarget).append(template);
             }
 
+        },
+
+        toggleNav: function () {
+            $(".scroll-nav").slideToggle("fast");
         }
 
     };
 
     // DOM Ready
     $(function () { grimmtales.init(); });
+    // Window Resized (smart debounced event)
+    $(window).bind("debouncedresize", function () { grimmtales.windowResized(); });
     // Images Loaded
     $(window).load(function () { grimmtales.windowLoaded(); });
 

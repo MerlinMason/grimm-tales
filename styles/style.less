@@ -291,7 +291,7 @@ textarea:focus {
         background-position: center center;
         background-repeat: no-repeat;
         margin-top: 7px;
-      
+
         &.timeout {
             width:50px;
             .retina-image("img/timeout-logo.png", "img/timeout-logo@2x.png", "50px", "20px");
@@ -302,6 +302,15 @@ textarea:focus {
         }
     }
 
+    .nav-toggle {
+        .size(20px, 15px);
+        .retina-image("img/hamburger.png", "img/hamburger@2x.png", "20px", "15px");
+        margin:@space 0;
+        display:none;
+        @media (max-width:@break-small) {
+            display:block;
+        }
+    }
     .scroll-nav {
         a {
             padding:@space (@space/2);
@@ -317,15 +326,24 @@ textarea:focus {
                 background: @color-highlight;
                 &:hover {color: #262626}
             }
-            @media (max-width:@break-small) {
-                text-align:center;
+        }
+        @media (max-width:@break-small) {
+            margin:0 -@space;
+            display:none;
+            a {
+                padding:(@space/2) @space;
+                display:block;
+                &.book-tickets { float:none; }
             }
+        }
+        @media (min-width:@break-small) {
+            display:block!important;
         }
     }
 }
 
 
-    
+
 
 
 //----------------------------------------------------------------------------//
