@@ -274,7 +274,7 @@
         },
 
         bindUIActions: function () {
-            $(".scroll-nav a").on("click", function (e) { grimmtales.scrollToSection(e); });
+            $(".scroll-nav a:not(.book-tickets)").on("click", function (e) { grimmtales.scrollToSection(e); });
             $(".calendar td").on("click", function (e) { grimmtales.showCalendarPopup(e); });
         },
 
@@ -286,9 +286,10 @@
             e.preventDefault();
 
             var destination = (e.currentTarget.hash);
-            var offset = $(destination)[0].offsetTop - 55;
+            var offset = $(destination)[0].offsetTop - 50;
 
             $("body").animate({ scrollTop: offset }, 600);
+            window.location.hash = destination;
         },
 
         showCalendarPopup: function (e) {
