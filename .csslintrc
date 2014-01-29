@@ -16,7 +16,7 @@
     "selector-max-approaching": true,
     "gradients": false,
     "fallback-colors": true,
-    "font-sizes": true,
+    "font-sizes": false,
     "font-faces": true,
     "floats": true,
     "star-property-hack": true,
