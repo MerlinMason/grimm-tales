@@ -369,10 +369,14 @@ textarea:focus {
     }
     .logo {
         background: url(img/grimm-tales-philip-pullman-logo.png) center center no-repeat;
-        .size(500px, 261px);
+        .size(500px, 262px);
         margin:0 auto;
         direction:ltr;
         text-indent:-9999px;
+        @media (max-width:@break-small) {
+            .size(250px, 131px);
+            background-size:250px 131px;
+        }
     }
     .dates {
         .main-heading();
