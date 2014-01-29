@@ -52,6 +52,7 @@
             <a href="#find-us">Find Us</a>
             <a href="#sponsors">Sponsors</a>
             <a href="#tour">Tour</a>
+            <a href="#tour">Book Tickets</a>
         </nav>
 
     </div>

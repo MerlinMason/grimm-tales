@@ -308,17 +308,17 @@
         <h1 class="main-heading light text-center">Cast and Creative</h1>
         <div class="row">
             <div class="col-sm-4">
-                <img src="http://placehold.it/260x260" alt="" class="clipped">
+                 <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-philip-wilson.jpg" alt="" class="clipped-med">
                 <h2 class="sub-heading">Philip Wilson</br>Adapter & Director</h2>
                  <p>Recent credits include Toro! Toro! (national tour), The Three Lions (Pleasance, Edinburgh), Twist of Gold (Polka), 66 Books (Bush), Earnest / Travesties (Birmingham Rep) and The Norman Conquests (Liverpool Playhouse). Philip was the Artistic Director of Salisbury Playhouse, 2007-11.</p>
             </div>
             <div class="col-sm-4">
-                <img src="http://placehold.it/260x260" alt="" class="clipped">
+                 <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-val-coward.jpg" alt="" class="clipped-med">
                 <h2 class="sub-heading">Valerie Coward</br>Producer </h2>
                  <p>Producer for the Old Vic Tunnels, 20 years of experience in producing immersive theatre shows ranging from transforming Leadenhall Market into a Ballroom, to creating a circus out of a City Atrium.</p>
             </div>
             <div class="col-sm-4">
-                <img src="http://placehold.it/260x260" alt="" class="clipped">
+                 <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-cat-botibol.jpg" alt="" class="clipped-med">
                 <h2 class="sub-heading">Catherine Botibol</br>Executive Producer </h2>
                  <p>Shortlisted in 2011 for the Hospital 100 list of emerging influential people in the creative and media industries, Cat is Creative Development Director of pd3 - a creative agency with 15 years experience creating entertainment content and experiences for brands such as O2, Sony, AEG, Live Nation, Ray-ban, Nike and Victorinox.  </p>
             </div>

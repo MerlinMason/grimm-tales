@@ -252,9 +252,9 @@ hr {
     height:1px;
     border:none;
     border-top:1px solid;
-    margin:0 0 @space 0;
-    &.light { border-color:#ccc; }
-    &.dark { border-color:#333; }
+    margin:@space 0 @space 0;
+    &.light {  border-top: 1px solid #ccc; border-bottom: 1px solid #eee; }
+    &.dark { border-top: 1px solid #111111; border-bottom: 1px solid #292929;  }
 }
 
 // Circular images that preserve aspect ratio - should be uploaded as squares
@@ -310,7 +310,8 @@ hr {
         // styles for days with no events
         &[data-date=""] {
             cursor:no-drop;
-            color:#bbb;
+            background:#abafab;
+            color:#898c89;
         }
     }
     .shows {
