@@ -64,6 +64,7 @@ module.exports = function (grunt) {
                 src: [
                     "js/bower/jquery/jquery.js",
                     "js/bower/fitvids/jquery.fitvids.js",
+                    "js/bower/jquery.parallax/index.js",
                     "js/project.js"
                 ],
                 dest: "js/production.js"

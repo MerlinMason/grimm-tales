@@ -239,13 +239,27 @@ textarea:focus {
 //  Content
 //----------------------------------------------------------------------------//
 
+// paralax stuff
+.welcome-scene {
+    padding-bottom:60%;
+    .layer {
+            background-size:cover;
+            background-repeat:no-repeat;
+    }
+    .layer1 { background-image:url(img/grimm-tales-philip-pullman-snow.png); }
+    .layer2 { background-image:url(img/grimm-tales-philip-pullman-wolf-and-girl.png); }
+    .layer3 { background-image:url(img/grimm-tales-philip-pullman-background2.jpg); }
+}
 
 .page-section {
     padding:@space 0;
     &.dark { .grad-vertical(#000,#333); }
     &.light {.grad-vertical(#d7d7d7,#eeeeee); }
     &.footer { background:@color-highlight; }
-    &.first { padding-top:75px; }
+    &.first {
+        padding-top:75px;
+        background:#000;
+    }
 }
 
 hr {

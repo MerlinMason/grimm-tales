@@ -130,7 +130,7 @@
             {
                 date: "04-04-2014",
                 shows: [
-                   
+
                     { time: "5.30pm", url: "www.ticketsource.co.uk/date/92142" },
                     { time: "8.15pm", url: "www.ticketsource.co.uk/date/92143" }
                 ]
@@ -148,14 +148,14 @@
                 shows: [
                     { time: "2.00pm", url: "hwww.ticketsource.co.uk/date/92148" },
                     { time: "5.00pm", url: "www.ticketsource.co.uk/date/92147" },
-                  
+
                 ]
             },
             {
                 date: "08-04-2014",
                 shows: [
                     { time: "7.30pm", url: "www.ticketsource.co.uk/date/92154" },
-               
+
                 ]
             },
             {
@@ -163,7 +163,7 @@
                 shows: [
                     { time: "3.30pm", url: "www.ticketsource.co.uk/date/92159" },
                     { time: "7.30pm", url: "www.ticketsource.co.uk/date/92160" },
-                    
+
                 ]
             },
             {
@@ -171,7 +171,7 @@
                 shows: [
                     { time: "5.30pm", url: "www.ticketsource.co.uk/date/92164" },
                     { time: "8.15pm", url: "www.ticketsource.co.uk/date/92165" },
-                    
+
                 ]
             },
             {
@@ -179,7 +179,7 @@
                 shows: [
                     { time: "5.30pm", url: "www.ticketsource.co.uk/date/92168" },
                     { time: "8.15pm", url: "www.ticketsource.co.uk/date/92167" },
-                
+
                 ]
             },
             {
@@ -195,7 +195,7 @@
                 shows: [
                     { time: "2.00pm", url: "www.ticketsource.co.uk/date/92176" },
                     { time: "5.00pm", url: "www.ticketsource.co.uk/date/92174" },
-                    
+
                 ]
             },
             {
@@ -203,7 +203,7 @@
                 shows: [
                     { time: "3.30pm", url: "www.ticketsource.co.uk/date/92181" },
                     { time: "7.30pm", url: "www.ticketsource.co.uk/date/92182" },
-                   
+
                 ]
             },
             {
@@ -211,7 +211,7 @@
                 shows: [
                     { time: "3.30pm", url: "www.ticketsource.co.uk/date/92184" },
                     { time: "7.30pm", url: "www.ticketsource.co.uk/date/92186" },
-                  
+
                 ]
             },
             {
@@ -219,7 +219,7 @@
                 shows: [
                     { time: "5.30pm", url: "www.ticketsource.co.uk/date/92191" },
                     { time: "58.15pm", url: "www.ticketsource.co.uk/date/92189" },
-     
+
                 ]
             },
             {
@@ -269,6 +269,7 @@
 
         init: function () {
             this.bindUIActions();
+            $(".welcome-scene").parallax();
             $(".fitvid-wrapper").fitVids();
         },
 
