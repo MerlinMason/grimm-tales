@@ -289,7 +289,6 @@
             var offset = $(destination)[0].offsetTop - 50;
 
             $("body").animate({ scrollTop: offset }, 600);
-            window.location.hash = destination;
         },
 
         showCalendarPopup: function (e) {
