@@ -38,7 +38,7 @@
         <div class="row mb-1x">
             <div class="col-sm-12">
                 <div class="fitvid-wrapper">
-                    <iframe class="player-frame" src="//player.vimeo.com/video/78050478?title=0&byline=0&portrait=0&color=ffffff&loop=0" frameborder="0" width="640" height="360"></iframe>
+                    <iframe class="player-frame" src="//player.vimeo.com/video/85334054?title=0&byline=0&portrait=0&color=ffffff&loop=0" frameborder="0" width="640" height="360"></iframe>
                 </div>
             </div>
         </div>
@@ -48,7 +48,8 @@
                     <p class= "body-dark">We are proud to collaborate with master storyteller Philip Pullman CBE to bring these classic tales quite literally to life through immersive theatre. Pullman is one of only nine authors in the world to have sold over 1 million books and his 2012 retelling of 50 of the Grimm Brothers’ Fairytales brought these classic stories to new generations of wide-eyed readers. </p>
                 </div>
                 <div class="col-sm-6">
-                     <p class= "body-dark">Adapted &amp; Directed by Philip Wilson</br>
+                     <p class= "body-dark">
+                        Adapted &amp; Directed by Philip Wilson</br>
                         Producer – Valerie Coward</br>
                         Executive Producer – Catherine Botibol</br>
                         Set & Costume Designer - Tom Rodgers</br>
@@ -415,22 +416,22 @@
 
         <div class="row">
             <div class="col-sm-3">
-                <img src="http://placehold.it/260x260" alt="" class="clipped">
+                <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-tube.png" alt="" class="clipped">
                 <h2 class="sub-heading">Underground</h2>
                 <p class= "details">The nearest underground station to Shoreditch Town Hall is Old Street, on the Northern Line. Old Street station is a simple five-minute walk along Old Street from the Town Hall. When you arrive at Old Street, exit through Exit 2 and head directly down Old Street towards the white tower, above the Town Hall. You can also get to the Town Hall from London Liverpool Street and Moorgate, which are each approximately 15 - 20 minutes’ walk away.</p>
             </div>
             <div class="col-sm-3">
-                <img src="http://placehold.it/260x260" alt="" class="clipped">
+                <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-train.png" alt="" class="clipped">
                 <h2 class="sub-heading">Overground</h2>
                 <p class= "details">The nearest train station to the Town Hall is Shoreditch High Street or Hoxton. Each is approx 5-10 minutes’ walk away.</p>
             </div>
             <div class="col-sm-3">
-                <img src="http://placehold.it/260x260" alt="" class="clipped">
+               <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-bus.png" alt="" class="clipped">
                 <h2 class="sub-heading">Buses</h2>
                 <p class= "details">A number of London Buses go via Old Street, which makes the Town Hall extremely accessible via bus. Buses stopping nearby include numbers: 26, 35, 47, 48, 55, 67, 78, 135, 149, 242 and 243.</p>
             </div>
             <div class="col-sm-3">
-                <img src="http://placehold.it/260x260" alt="" class="clipped">
+                <img src="<?php bloginfo('template_url'); ?>/img/grimm-tales-philip-pullman-car.png" alt="" class="clipped">
                 <h2 class="sub-heading">Parking</h2>
                 <p class= "details">Shoreditch Town Hall does not have designated parking areas for clients or visitors to the Town Hall. There are a number of car parks nearby, including an NCP on Great Eastern Street. There is a short-term loading bay for clients of the Town Hall available outside the front of the venue, available between 10am-4pm daily, for a maximum of 15 minutes.</p>
             </div>
