@@ -63,8 +63,7 @@ module.exports = function (grunt) {
             dist: {
                 src: [
                     "js/bower/jquery/jquery.js",
-                    "js/bower/modernizr/modernizr.js",
-                    "js/bower/jquery-smartresize/jquery.debouncedresize.js",
+                    "js/bower/fitvids/jquery.fitvids.js",
                     "js/project.js"
                 ],
                 dest: "js/production.js"
@@ -96,7 +95,7 @@ module.exports = function (grunt) {
                 tasks: "buildcss"
             },
             scripts: {
-                files: "js/project.js",
+                files: ["js/project.js", "Gruntfile.js"],
                 tasks: "buildjs"
             }
         },

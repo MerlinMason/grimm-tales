@@ -282,14 +282,6 @@
             //
         },
 
-        windowResized: function () {
-            //
-        },
-
-        windowScrolled: function () {
-            //
-        },
-
         scrollToSection: function (e) {
             e.preventDefault();
 
@@ -341,9 +333,5 @@
     $(function () { grimmtales.init(); });
     // Images Loaded
     $(window).load(function () { grimmtales.windowLoaded(); });
-    // Window Resized (smart debounced event)
-    $(window).bind("debouncedresize", function () { grimmtales.windowResized(); });
-    // Window Scrolled
-    $(window).on("scroll", function () { grimmtales.windowScrolled(); });
 
 } (jQuery));
