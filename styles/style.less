@@ -129,6 +129,7 @@ p { margin-bottom:@space; }
     color:@color-highlight;
     border-bottom:3px solid @color-highlight;
     text-transform:uppercase;
+    display: inline-block;
     margin-bottom:@space;
 }
 
@@ -295,11 +296,20 @@ textarea:focus {
             font-family: 'Geometric415BT-MediumA';
             text-transform: uppercase;
             font-weight: normal;
+            color: #ccc;
             letter-spacing: 0.1em;
             font-size:@font-size-mini;
+            &:hover {color: @color-highlight}
+            &.book-tickets {
+                background: @color-highlight;
+                &:hover {color: #262626}
+            }
         }
     }
 }
+
+
+    
 
 
 //----------------------------------------------------------------------------//
@@ -314,7 +324,7 @@ textarea:focus {
     img { width:100%; height:auto; }
 }
 .masthead {
-    padding:(@space*4) 0;
+    padding:(@space*4) 0 0;
     position:relative;
     z-index:1;
     .author {
@@ -376,7 +386,7 @@ hr {
 }
 
 .clipped-large {
-    width:100%; // change this to make them bigger / smaller
+    width:80%; // change this to make them bigger / smaller
     height:auto;
     border-radius:50%;
     margin:0 auto @space;
