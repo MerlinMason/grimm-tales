@@ -52,44 +52,44 @@
 .for-young {
     font-family: 'Geometric415BT-MediumA';
     font-weight:normal;
-    font-size:14px;
+    font-size:12px;
     letter-spacing:0.5em;
     color:white;
-    padding-top:20px;
-    padding-bottom:5px;
+    padding-top:16px;
+    padding-bottom:4px;
     text-transform:uppercase;
 }
 
 .immersive {
     font-family: 'Geometric415BT-MediumA';
     font-weight:normal;
-    font-size:24px;
+    font-size:22px;
     letter-spacing:0.5em;
     color:white;
     padding-top:0px;
-    padding-bottom:5px;
+    padding-bottom:4px;
     text-transform:uppercase;
 }
 
 .adapted {
     font-family: 'Geometric415BT-MediumA';
     font-weight:normal;
-    font-size:12px;
+    font-size:10px;
     letter-spacing:0.5em;
     color:white;
-    padding-top:10px;
-    padding-bottom:5px;
+    padding-top:6px;
+    padding-bottom:4px;
     text-transform:uppercase;
 }
 
 .philip {
     font-family: 'Geometric415BT-MediumA';
     font-weight:normal;
-    font-size:20px;
+    font-size:18px;
     letter-spacing:0.5em;
     color:white;
     padding-top:0px;
-    padding-bottom:20px;
+    padding-bottom:16px;
     text-transform:uppercase;
 }
 
@@ -99,7 +99,7 @@
     font-size:24px;
     letter-spacing:0.05em;
     color:white;
-    padding-top: 10px;
+    padding-top: 6px;
     padding-bottom: 0px;
     text-transform:uppercase;
 }
@@ -358,7 +358,7 @@ textarea:focus {
     img { width:100%; height:auto; }
 }
 .masthead {
-    padding:(@space*4) 0 0;
+    padding:(@space*2) 0 0;
     position:relative;
     z-index:1;
     .author {
@@ -369,13 +369,13 @@ textarea:focus {
     }
     .logo {
         background: url(img/grimm-tales-philip-pullman-logo.png) center center no-repeat;
-        .size(500px, 262px);
+        .size(400px, 209px);
         margin:0 auto;
         direction:ltr;
         text-indent:-9999px;
         @media (max-width:@break-small) {
-            .size(250px, 131px);
-            background-size:250px 131px;
+            .size(200px, 105px);
+            background-size:200px 105px;
         }
     }
     .dates {
@@ -391,7 +391,7 @@ textarea:focus {
     padding:@space 0;
     &.dark { .grad-vertical(#000,#333); }
     &.light {.grad-vertical(#d7d7d7,#eeeeee); }
-    &.footer { background:@color-highlight; }
+    &.footer { .grad-vertical(#000,#333); }
     &.first {
         padding-top:50px;
         background:#000;
@@ -433,11 +433,22 @@ hr {
 }
 
 .icons {
+    width:25%; // change this to make them bigger / smaller
+    height:auto;
+    margin:0 auto @space;
+    display:block;
+    
+
+}
+
+.logos {
     width:40%; // change this to make them bigger / smaller
     height:auto;
     margin:0 auto @space;
     display:block;
+    float: left;
 }
+
 
 .large-image {
     width:80%; // change this to make them bigger / smaller
