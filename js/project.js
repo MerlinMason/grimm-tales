@@ -334,8 +334,8 @@
                     i++;
                 }
 
-                $(template).wrap("<div class=\"shows-wrapper\"></div>");
-                $(e.currentTarget).append(template);
+                var finalTemplate = $(template).wrap("<div class=\"shows-wrapper\"></div>");
+                $(e.currentTarget).append(finalTemplate);
             }
 
         },
