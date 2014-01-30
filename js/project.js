@@ -295,7 +295,7 @@
             var destination = (e.currentTarget.hash);
             var offset = $(destination)[0].offsetTop - 50;
 
-            $("html").animate({ scrollTop: offset }, 600);
+            $("html, body").animate({ scrollTop: offset }, 600);
         },
 
         showCalendarPopup: function (e) {
