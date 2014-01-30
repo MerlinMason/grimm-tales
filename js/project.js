@@ -318,7 +318,7 @@
                 var shows = result[0].shows;
 
                 // populate a template with times for the date
-                var template = $("<div class=\"shows\"></div>");
+                var template = $("<div class=\"shows-wrapper\"><div class=\"shows\"></div></div>");
                 var i = 0;
                 while (i < shows.length) {
                     if (shows[i].url === "") {
