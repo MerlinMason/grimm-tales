@@ -271,6 +271,7 @@
             this.bindUIActions();
             $(".welcome-scene").parallax();
             $(".fitvid-wrapper").fitVids();
+            $(".author, .masthead .logo, .for-young, .immersive, .adapted, .philip, .dates").fadeTo(0, 0);
         },
 
         bindUIActions: function () {
@@ -286,7 +287,11 @@
         },
 
         windowLoaded: function () {
-            //
+            var time = 0;
+			$(".author, .masthead .logo, .for-young, .immersive, .adapted, .philip, .dates").each(function() {
+	    		$(this).delay(time).fadeTo(800, 1);
+	    		time += 200;
+			});
         },
 
         scrollToSection: function (e) {
