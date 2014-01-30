@@ -288,10 +288,10 @@
 
         windowLoaded: function () {
             var time = 0;
-			$(".author, .masthead .logo, .for-young, .immersive, .adapted, .philip, .dates").each(function() {
-	    		$(this).delay(time).fadeTo(800, 1);
-	    		time += 200;
-			});
+            $(".author, .masthead .logo, .for-young, .immersive, .adapted, .philip, .dates").each(function () {
+                $(this).delay(time).fadeTo(800, 1);
+                time += 200;
+            });
         },
 
         scrollToSection: function (e) {
@@ -306,12 +306,15 @@
         showCalendarPopup: function (e) {
             if ($(e.currentTarget).find(".shows").length > 0) {
 
-                $(".calendar .shows").remove();
+                $(".calendar .shows-wrapper").remove();
 
             } else {
-
                 // get rid of any existing popup
-                $(".calendar .shows").remove();
+                $(".calendar .shows-wrapper").remove();
+
+                // create wrapper
+                $(e.currentTarget).append("<div class=\"shows-wrapper\"></div>");
+                var wrapper = $(e.currentTarget).find(".shows-wrapper");
 
                 // determine date
                 var date = $(e.currentTarget).data("date");
@@ -334,8 +337,7 @@
                     i++;
                 }
 
-                var finalTemplate = $(template).wrap("<div class=\"shows-wrapper\"></div>");
-                $(e.currentTarget).append(finalTemplate);
+                $(wrapper).append(template);
             }
 
         },
