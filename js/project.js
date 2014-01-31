@@ -307,6 +307,11 @@
             var offset = $(destination)[0].offsetTop - 50;
 
             $("html, body").animate({ scrollTop: offset }, 600);
+
+            // if it's mobile size hide menu
+            if ($(window).width() < 728) {
+                $(".scroll-nav").slideUp("fast");
+            }
         },
 
         showCalendarPopup: function (e) {
