@@ -129,6 +129,18 @@ body {
 
 }
 
+address {
+    font-family:@font-family-base;
+    font-size:@font-size-base;
+    line-height:@line-height-base;
+    color:@color-text-light;
+    letter-spacing: 0.04em;
+    font-family: 'AvenirLT-Light';
+    font-style:normal;
+   -webkit-font-smoothing: antialiased;
+   color:@color-text-dark;
+}
+
 
 p { margin-bottom:@space; }
 
@@ -142,6 +154,7 @@ p { margin-bottom:@space; }
     text-transform:uppercase;
     display: inline-block;
     margin-bottom:@space;
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -196,6 +209,7 @@ p { margin-bottom:@space; }
     margin-bottom:@space;
     &.dark { color:#464646; }
     &.light { color:#c8c8c8; }
+    -webkit-font-smoothing: antialiased;
 }
 
 .bordered-top {
@@ -225,11 +239,12 @@ a:link,
 a:visited {
     color:@color-link;
     text-decoration:none;
+    font-family: 'Geometric415BT-MediumA';
 }
 a:hover,
 a:focus,
 a:active {
-    color:@color-link-hover;
+    color:@black-70;
     text-decoration:none;
     outline:none;
 }
@@ -446,17 +461,36 @@ hr {
     height:auto;
     margin:0 auto @space;
     display:block;
-
-
+    float: left;
 }
 
+
+
 .logos {
-    width:40%; // change this to make them bigger / smaller
+    width:90%; // change this to make them bigger / smaller
     height:auto;
     margin:0 auto @space;
     display:block;
     float: left;
 }
+
+.pen-logo {
+    width:50%; // change this to make them bigger / smaller
+    height:auto;
+    margin:0 auto @space;
+    display:block;
+    float: left;
+}
+
+
+.logos-bottom {
+    width:80%;  // change this to make them bigger / smaller
+    height:auto;
+    margin:0 auto @space;
+    display:block;
+
+}
+
 
 
 .large-image {
@@ -488,6 +522,11 @@ hr {
         height: 100% !important;
     }
 }
+
+
+//----------------------------------------------------------------------------//
+//  Support icons
+//----------------------------------------------------------------------------//
 
 
 //----------------------------------------------------------------------------//

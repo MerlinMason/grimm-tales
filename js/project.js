@@ -7,8 +7,8 @@
             {
                 date: "14-03-2014",
                 shows: [
-                    { time: "5.30pm", url: "http://www.ticketsource.co.uk/date/91282" },
-                    { time: "8.15pm", url: "http://www.ticketsource.co.uk/date/92105" }
+                    { time: "5.30pm", url: "" },
+                    { time: "8.15pm", url: "" }
                 ]
             },
             {
@@ -218,7 +218,7 @@
                 date: "17-04-2014",
                 shows: [
                     { time: "5.30pm", url: "http://www.ticketsource.co.uk/date/92191" },
-                    { time: "58.15pm", url: "http://www.ticketsource.co.uk/date/92189" },
+                    { time: "8.15pm", url: "http://www.ticketsource.co.uk/date/92189" },
 
                 ]
             },
