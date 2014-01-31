@@ -269,6 +269,7 @@
 
         init: function () {
             this.bindUIActions();
+            this.setCalendar();
             $(".welcome-scene").parallax();
             $(".fitvid-wrapper").fitVids();
             $(".author, .masthead .logo, .for-young, .immersive, .adapted, .philip, .dates").fadeTo(0, 0);
@@ -280,6 +281,7 @@
                     time += 200;
                 });
             }, 500);
+
         },
 
         bindUIActions: function () {
@@ -348,6 +350,17 @@
 
         toggleNav: function () {
             $(".scroll-nav").slideToggle("fast");
+        },
+
+        setCalendar: function () {
+            console.log("setting");
+            // loop through these because iOS is retarded
+            $(".calendar tr").each(function () {
+                $(this).find("td:nth-child(4)").addClass("right");
+                $(this).find("td:nth-child(5)").addClass("right");
+                $(this).find("td:nth-child(6)").addClass("right");
+                $(this).find("td:nth-child(7)").addClass("right");
+            });
         }
 
     };
