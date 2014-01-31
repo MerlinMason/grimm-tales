@@ -303,7 +303,7 @@ textarea:focus {
 
 .page-header {
     .position(fixed,0,0,auto,0);
-    z-index:2;
+    z-index:3;
     background-color: #262626;
     .logos a {
         text-indent:-110%;
@@ -318,21 +318,38 @@ textarea:focus {
 
         &.timeout {
             width:50px;
-            .retina-image("img/timeout-logo.png", "img/timeout-logo@2x.png", "50px", "20px");
+            .retina-image("img/timeout-logo.png", "img/timeout-logo@2x.png", 50px, 20px);
         }
         &.penguin {
             width:189px;
-            .retina-image("img/penguin-classics-logo.png", "img/penguin-classics-logo@2x.png", "189px", "40px");
+            .retina-image("img/penguin-classics-logo.png", "img/penguin-classics-logo@2x.png", 189px, 40px);
         }
     }
 
-    .nav-toggle {
-        .size(20px, 15px);
-        .retina-image("img/hamburger.png", "img/hamburger@2x.png", "20px", "15px");
-        margin:@space 0;
+    .mobile-menu {
         display:none;
         @media (max-width:@break-small) {
             display:block;
+        }
+        .nav-toggle {
+            .size(20px, 15px);
+            .retina-image("img/hamburger.png", "img/hamburger@2x.png", 20px, 15px);
+            margin:@space 0;
+        }
+        .book-tickets {
+            padding:@space (@space/2);
+            display:inline-block;
+            font-family: 'Geometric415BT-MediumA';
+            text-transform: uppercase;
+            font-weight: normal;
+            color: #ccc;
+            letter-spacing: 0.1em;
+            font-size:@font-size-mini;
+            background: @color-highlight;
+            margin-right:-@space;
+            &:hover {
+                color: #262626;
+            }
         }
     }
     .scroll-nav {
@@ -348,7 +365,12 @@ textarea:focus {
             &:hover {color: @color-highlight}
             &.book-tickets {
                 background: @color-highlight;
-                &:hover {color: #262626}
+                &:hover {
+                    color: #262626;
+                }
+                @media (max-width:@break-small) {
+                    display:none;
+                }
             }
         }
         @media (max-width:@break-small) {
@@ -417,8 +439,25 @@ textarea:focus {
     &.light {.grad-vertical(#d7d7d7,#eeeeee); }
     &.footer { .grad-vertical(#000,#333); }
     &.first {
-        padding-top:50px;
+        margin-top:50px;
+        padding-top:0;
         background:#000;
+        position:relative;
+        .container {
+            position:relative;
+            .twitter {
+                .position(absolute, @space, auto, auto, @space);
+                z-index:2;
+                direction:ltr;
+                text-indent:-110%;
+                display:block;
+                .size(37px, 30px);
+                .retina-image("img/twitter.png", "img/twitter@2x.png", 37px, 30px);
+                opacity:0.8;
+                transition:opacity 0.2s;
+                &:hover { opacity:1; }
+            }
+        }
     }
 }
 
@@ -466,6 +505,9 @@ hr {
 
 
 
+
+
+
 .logos {
     width:90%; // change this to make them bigger / smaller
     height:auto;
@@ -483,6 +525,7 @@ hr {
 }
 
 
+
 .logos-bottom {
     width:80%;  // change this to make them bigger / smaller
     height:auto;
@@ -490,7 +533,6 @@ hr {
     display:block;
 
 }
-
 
 
 .large-image {
@@ -506,8 +548,6 @@ hr {
     margin:0 auto @space;
     display:block;
 }
-
-
 
 .google-map {
     position: relative;
@@ -582,11 +622,7 @@ hr {
         }
     }
     // rearrange layout if popup is on right of screen
-    td:nth-child(3)
-    td:nth-child(4),
-    td:nth-child(5),
-    td:nth-child(6),
-    td:nth-child(7) {
+    td.right {
         .shows {
             .position(absolute, -32px, 100%, auto, auto);
             &:before {
