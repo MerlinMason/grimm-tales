@@ -132,7 +132,7 @@
                 shows: [
 
                     { time: "5.30pm", url: "http://www.ticketsource.co.uk/date/92142" },
-                    { time: "8.15pm", url: "http://www..ticketsource.co.uk/date/92143" }
+                    { time: "8.15pm", url: "http://www.ticketsource.co.uk/date/92143" }
                 ]
             },
             {
