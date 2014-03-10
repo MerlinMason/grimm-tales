@@ -29,13 +29,13 @@
             {
                 date: "18-03-2014",
                 shows: [
-                    { time: "7:30pm", url: "https://www.ticketsource.co.uk/boxoffice/select/CUoSATXaeYaX" }
+                    { time: "7:30pm", url: "http://www.ticketsource.co.uk/date/96477" }
                 ]
             },
             {
                 date: "19-03-2014",
                 shows: [
-                    { time: "7:30pm", url: "https://www.ticketsource.co.uk/boxoffice/select/wwOZAtTLUpoR" }
+                    { time: "7:30pm", url: "http://www.ticketsource.co.uk/date/96478" }
                 ]
             },
             {
