@@ -7,23 +7,23 @@
             {
                 date: "14-03-2014",
                 shows: [
-                    { time: "5.30pm", url: "" },
+                    { time: "5.30pm", url: "http://www.ticketsource.co.uk/date/97602" },
                     { time: "8.15pm", url: "" }
                 ]
             },
             {
                 date: "15-03-2014",
                 shows: [
-                    { time: "2:00pm", url: "" },
-                    { time: "5:00pm", url: "" },
-                    { time: "8:00pm", url: "" }
+                    { time: "2:00pm", url: "http://www.ticketsource.co.uk/date/97603" },
+                    { time: "5:00pm", url: "http://www.ticketsource.co.uk/date/97595" },
+                    { time: "8:00pm", url: "http://www.ticketsource.co.uk/date/97596" }
                 ]
             },
             {
                 date: "16-03-2014",
                 shows: [
-                    { time: "2:00pm", url: "" },
-                    { time: "5:00pm", url: "" }
+                    { time: "2:00pm", url: "http://www.ticketsource.co.uk/date/97598" },
+                    { time: "5:00pm", url: "http://www.ticketsource.co.uk/date/97597" }
                 ]
             },
             {
