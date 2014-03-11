@@ -64,17 +64,16 @@ module.exports = function (grunt) {
                 src: [
                     "js/bower/jquery/jquery.js",
                     "js/bower/fitvids/jquery.fitvids.js",
-                    "js/bower/jquery.parallax/index.js",
-                    "js/project.js"
+                    "js/bower/jquery.parallax/index.js"
                 ],
-                dest: "js/production.js"
+                dest: "js/third-party.js"
             }
         },
 
         uglify: {
             my_target: {
                 files: {
-                    "js/production.js": ["js/production.js"]
+                    "js/third-party.js": ["js/third-party.js"]
                 }
             }
         },

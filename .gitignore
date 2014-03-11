@@ -2,6 +2,5 @@
 /js/bower
 /node_modules
 npm-debug.log
-/js/production.js
 *.css
 dploy.yaml
