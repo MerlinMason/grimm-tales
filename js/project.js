@@ -7,35 +7,35 @@
             {
                 date: "14-03-2014",
                 shows: [
-                    { time: "5.30pm", url: "http://www.ticketsource.co.uk/date/97602" },
+                    { time: "5.30pm", url: "" },
                     { time: "8.15pm", url: "" }
                 ]
             },
             {
                 date: "15-03-2014",
                 shows: [
-                    { time: "2:00pm", url: "http://www.ticketsource.co.uk/date/97603" },
-                    { time: "5:00pm", url: "http://www.ticketsource.co.uk/date/97595" },
-                    { time: "8:00pm", url: "http://www.ticketsource.co.uk/date/97596" }
+                    { time: "2:00pm", url: "" },
+                    { time: "5:00pm", url: "" },
+                    { time: "8:00pm", url: "" }
                 ]
             },
             {
                 date: "16-03-2014",
                 shows: [
-                    { time: "2:00pm", url: "http://www.ticketsource.co.uk/date/97598" },
-                    { time: "5:00pm", url: "http://www.ticketsource.co.uk/date/97597" }
+                    { time: "2:00pm", url: "" },
+                    { time: "5:00pm", url: "" }
                 ]
             },
             {
                 date: "18-03-2014",
                 shows: [
-                    { time: "7:30pm", url: "http://www.ticketsource.co.uk/date/96477" }
+                    { time: "7:30pm", url: "" }
                 ]
             },
             {
                 date: "19-03-2014",
                 shows: [
-                    { time: "7:30pm", url: "http://www.ticketsource.co.uk/date/96478" }
+                    { time: "7:30pm", url: "" }
                 ]
             },
             {
@@ -48,14 +48,14 @@
                 date: "21-03-2014",
                 shows: [
                     { time: "5.30pm", url: "http://www.ticketsource.co.uk/date/92112" },
-                    { time: "8.15pm", url: "http://www.ticketsource.co.uk/date/92113" }
+                    { time: "8.15pm", url: "" }
                 ]
             },
             {
                 date: "22-03-2014",
                 shows: [
                     { time: "2:00pm", url: "http://www.ticketsource.co.uk/date/92115" },
-                    { time: "5:00pm", url: "http://www.ticketsource.co.uk/date/92114" },
+                    { time: "5:00pm", url: "" },
                     { time: "8:00pm", url: "http://www.ticketsource.co.uk/date/92117" },
                 ]
             },
@@ -69,7 +69,7 @@
             {
                 date: "25-03-2014",
                 shows: [
-                    { time: "7:30pm", url: "http://www.ticketsource.co.uk/date/92121" }
+                    { time: "7:30pm", url: "" }
                 ]
             },
             {
