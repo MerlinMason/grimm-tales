@@ -274,7 +274,6 @@
             {
                 date: "26-04-2014",
                 shows: [
-                    { time: "2.00pm", url: "http://www.ticketsource.co.uk/date/101628" },
                     { time: "5.00pm", url: "http://www.ticketsource.co.uk/date/101629" }, 
                     { time: "8.00pm", url: "http://www.ticketsource.co.uk/date/101630" }
                 ]
