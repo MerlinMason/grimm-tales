@@ -268,13 +268,13 @@
                 date: "25-04-2014",
                 shows: [
                     { time: "5.30pm", url: "http://www.ticketsource.co.uk/date/101626" },
-                    { time: "8.15pm", url: "http://www.ticketsource.co.uk/date/101627" } 
+                    { time: "8.15pm", url: "http://www.ticketsource.co.uk/date/101627" }
                 ]
             },
             {
                 date: "26-04-2014",
                 shows: [
-                    { time: "5.00pm", url: "http://www.ticketsource.co.uk/date/101629" }, 
+                    { time: "5.00pm", url: "http://www.ticketsource.co.uk/date/101629" },
                     { time: "8.00pm", url: "http://www.ticketsource.co.uk/date/101630" }
                 ]
             },
@@ -371,7 +371,6 @@
         },
 
         setCalendar: function () {
-            console.log("setting");
             // loop through these because iOS is retarded
             $(".calendar tr").each(function () {
                 $(this).find("td:nth-child(4)").addClass("right");
