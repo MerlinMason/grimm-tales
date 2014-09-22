@@ -45,7 +45,7 @@
 
         getShows: function () {
             $.ajax({
-                url: "http://donhoubicycles.com/stubs/shows.json",
+                url: "http://grimm-tales.co.uk/shows.json",
                 dataType: "json"
             })
             .done(function (response) {
