@@ -12,6 +12,7 @@
 
             this.getShows();
             this.setCalendar();
+            this.lazyLoad();
 
             setTimeout(function () {
                 var time = 0;
@@ -33,6 +34,13 @@
             if ($(window).width() > 728) {
                 $(".scroll-nav").css({ "display" : "inline-block" });
             }
+        },
+
+        lazyLoad: function () {
+            $("[data-src]").each(function () {
+                var image = $(this).data("src");
+                $(this).attr("src", image);
+            });
         },
 
         getShows: function () {
