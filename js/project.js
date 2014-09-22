@@ -12,7 +12,6 @@
 
             this.getShows();
             this.setCalendar();
-            this.lazyLoad();
 
             setTimeout(function () {
                 var time = 0;
@@ -36,7 +35,8 @@
             }
         },
 
-        lazyLoad: function () {
+        windowLoaded: function () {
+            // lazy load images
             $("[data-src]").each(function () {
                 var image = $(this).data("src");
                 $(this).attr("src", image);
@@ -138,6 +138,8 @@
 
     // DOM Ready
     $(function () { grimmtales.init(); });
+    // Window Loaded
+    $(window).load(function () { grimmtales.windowLoaded(); });
     // Window Resized (smart debounced event)
     $(window).bind("debouncedresize", function () { grimmtales.windowResized(); });
 
