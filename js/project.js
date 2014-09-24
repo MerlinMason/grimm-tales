@@ -121,7 +121,11 @@
                         i++;
                     }
                 } else {
-                    $("<div>Sorry, no shows today</div>").appendTo(template);
+                    if (date === "preview") {
+                        $("<div>Time Out Exclusive Preview</div>").appendTo(template);
+                    } else {
+                        $("<div>Sorry, no shows today</div>").appendTo(template);
+                    }
                 }
 
                 $(wrapper).append(template);
