@@ -44,6 +44,8 @@
         },
 
         getShows: function () {
+            var view = this;
+
             $.ajax({
                 url: "http://grimm-tales.co.uk/shows.json",
                 dataType: "json"
@@ -54,12 +56,20 @@
                     this.Date = dateTime[0];
                     this.Time = dateTime[1];
                 });
-                grimmtales.shows = response.Shows.Show;
+                if (response.Shows.Show) {
+                    grimmtales.shows = response.Shows.Show;
+                } else {
+                    view.ticketFallback();
+                }
             })
             .fail(function () {
-                $(".all-tickets").hide();
-                $(".tickets-fallback").show();
+                view.ticketFallback();
             });
+        },
+
+        ticketFallback: function () {
+            $(".all-tickets").hide();
+            $(".tickets-fallback").show();
         },
 
         scrollToSection: function (e) {
