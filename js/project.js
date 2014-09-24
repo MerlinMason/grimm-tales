@@ -52,7 +52,7 @@
             })
             .done(function (response) {
                 $.each(response.Shows.Show, function () {
-                    var dateTime = this.Starts.split("T");
+                    var dateTime = this.DoorsOpen.split("T");
                     this.Date = dateTime[0];
                     this.Time = dateTime[1];
                 });
