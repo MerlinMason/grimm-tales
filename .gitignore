@@ -4,3 +4,5 @@
 npm-debug.log
 *.css
 dploy.yaml
+grimm-api.php
+js/production.js

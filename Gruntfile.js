@@ -64,16 +64,17 @@ module.exports = function (grunt) {
                 src: [
                     "js/bower/jquery/jquery.js",
                     "js/bower/fitvids/jquery.fitvids.js",
-                    "js/bower/jquery.parallax/index.js"
+                    "js/bower/jquery.parallax/index.js",
+                    "js/project.js"
                 ],
-                dest: "js/third-party.js"
+                dest: "js/production.js"
             }
         },
 
         uglify: {
             my_target: {
                 files: {
-                    "js/third-party.js": ["js/third-party.js"]
+                    "js/production.js": ["js/production.js"]
                 }
             }
         },
@@ -118,6 +119,12 @@ module.exports = function (grunt) {
                     title: "Cashback!",
                     message: "LESS build successful!"
                 }
+            },
+            img: {
+                options: {
+                    title: "Jurassic Park!",
+                    message: "Image minify successful!"
+                }
             }
         }
 
@@ -125,7 +132,8 @@ module.exports = function (grunt) {
 
     // List of available tasks
     grunt.registerTask("default", []);
-    grunt.registerTask("buildcss", ["less", "autoprefixer", "csslint", "cssmin", "imagemin", "notify:less"]);
+    grunt.registerTask("buildcss", ["less", "autoprefixer", "csslint", "cssmin", "notify:less"]);
+    grunt.registerTask("buildimg", ["imagemin", "notify:img"]);
     grunt.registerTask("buildjs", ["jshint", "concat", "uglify", "notify:js"]);
 
 };
