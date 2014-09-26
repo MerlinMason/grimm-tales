@@ -47,7 +47,7 @@
             var view = this;
 
             $.ajax({
-                url: "http://grimm-tales.co.uk/shows.json",
+                url: "http://grimm-tales.co.uk/stubs/shows.json",
                 dataType: "json"
             })
             .done(function (response) {
