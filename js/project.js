@@ -120,12 +120,12 @@
                         }
                         i++;
                     }
+                } else if (date === "opening") {
+                    $("<div>Opening Night!</div>").appendTo(template);
+                } else if (date === "preview") {
+                    $("<div>Time Out Exclusive Preview</div>").appendTo(template);
                 } else {
-                    if (date === "preview") {
-                        $("<div>Time Out Exclusive Preview</div>").appendTo(template);
-                    } else {
-                        $("<div>Sorry, no shows today</div>").appendTo(template);
-                    }
+                    $("<div>Sorry, no shows today</div>").appendTo(template);
                 }
 
                 $(wrapper).append(template);
